@@ -21,10 +21,10 @@ author: QuantumC&S
 
 navbar-links:
   About Us: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Services:
+    - Quantum Cloud Service: "https://quantumcns.ai/en/quantum-cloud-service/"
+    - Quantum Kubernetes Service: "https://quantumcns.ai/en/quantum-kubernetes-service/"
+  Author's home: "https://quantumcns.ai"
 
 ################
 # --- Logo --- #
