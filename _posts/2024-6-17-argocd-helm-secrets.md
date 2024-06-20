@@ -26,13 +26,14 @@ age를 이용한 키 생성:
 
 age-keygen -o key.txt
 - export SOPS_AGE_KEY_FILE="/root/key.txt"
-- export SOPS_AGE_RECIPIENTS=age125tye5k53k5e3acdc4e6hhh7fxlnlsyfw4cp9k5s9qxsj7xceyxq62s03v
+- export SOPS_AGE_RECIPIENTS="age 퍼블릭키"
 
 age 키를 argocd에서 사용하기 위해 kubernetes secret 형태로 만듭니다.
 kubectl create secret generic helm-secrets-private-keys --from-file=key.txt=key.txt
 argocd 에서 secrets plugin 추가하는 방법이 2가지가 있습니다
 argocd custom image 관리
 initContainer 사용해서 세팅 
+
 TODO: 두가지 방법에 대한 장단점을 상세하게 설명을 추가 해야함
 
 
@@ -41,7 +42,7 @@ argocd repo server의 initContainer에 필요한 script 추가
 helm-secrets-private-keys 시크릿을 argocd repo server 파드에 마운트해줘야 argocd가 암호화된 values 파일을 사용해서 차트 설치할 수 있다.
 
 
-values 파일 설정:
+values 파일 설정 예시:
 ```
 secrets+age-import:///helm-secrets-private-keys/key.txt?values-enc.yaml
 secrets+age-import:///helm-secrets-private-keys/key.txt?http://gitlab.com/values-enc.yaml
