@@ -13,6 +13,19 @@ author: Alex
 
 - https://technotim.live/posts/install-age/
 - https://github.com/getsops/sops/releases
+
+Sops 설치
+
+```
+# binary 다운로드
+curl -LO https://github.com/getsops/sops/releases/download/v3.8.1/sops-v3.8.1.linux.amd64
+
+# PATH로 이동 
+mv sops-v3.8.1.linux.amd64 /usr/local/bin/sops
+
+# 실행 권한 부여
+chmod +x /usr/local/bin/sops
+```
   
 Helm secrets 플러그인 설치
 
