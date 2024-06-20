@@ -13,14 +13,14 @@
 title: QuantumC&S Tech Blog
 
 # Your name to show in the footer
-author: Some Person
+author: QuantumC&S
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  About Us: "aboutme"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
@@ -100,7 +100,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "quantumcns.ai"
 
 # Add the website title to the title of every page
 title-on-all-pages: true

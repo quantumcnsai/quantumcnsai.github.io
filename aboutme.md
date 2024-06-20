@@ -1,16 +1,16 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: About Us
+subtitle: Why you'd want to collaborate with us
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Quantum C&S believes in the value of open source and will be a part of contributing to the development of the open source ecosystem.
+Quantum Cloud is custom-built to meet customer needs, using a base constructed from the open source cloud solutions Openstack, Kubernetes, and Ceph. Depending on its purpose, it can be configured into either the QCS (Openstack + Kubernetes + Ceph) or QKS (Kubernetes + Ceph) services.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+In addition to Quantum Cloud, Quantum C&S offers QMS, an MSA development solution, and plans to release Samanda, a service that provides tailor-made AI, in the future.
 
-What else do you need?
 
-### My story
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+### Contact
+
+If you are looking for more information about us you are welcome to visit our [website](https://quantumcns.ai/).
