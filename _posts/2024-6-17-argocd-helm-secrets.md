@@ -8,9 +8,6 @@ share-img: /assets/img/argocd.png
 tags: [argocd, helm]
 author: Alex
 ---
-참초 문서:
-- [https://technotim.live/posts/install-age/](age 설치 가아드)
-- [https://github.com/getsops/sops/releases](sops 설치 가이드)
 
 ## 환경 설정
 Helm은 사용자 Application을 k8s 환경에 편하게 설치하고 업데이트할 수 있게 도와주는 유용한 툴이지만 secret 데이터를
@@ -209,3 +206,8 @@ secrets+age-import:///helm-secrets-private-keys/key.txt?http://gitlab.com/values
 그다음으로 ```/helm-secrets-private-keys/key.txt``` 는 repoServer 컨테이너 안에 마운트 되어 있는 age 키 파일 위치입니다.
 
 마지막으로 **?** 뒤에 ```?http://gitlab.com/values-enc.yaml``` 는 암호화된 values 파일의 위치입니다.
+
+
+참초 문서:
+- [https://technotim.live/posts/install-age/](age 설치 가아드)
+- [https://github.com/getsops/sops/releases](sops 설치 가이드)
