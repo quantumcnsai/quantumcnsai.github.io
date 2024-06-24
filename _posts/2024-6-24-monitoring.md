@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 쿠버네티스에서 Appliction을 모니터링하기
+title: 쿠버네티스에서 Application을 모니터링하기
 subtitle: 쿠버네티스 입문자들을 위한 자료
 cover-img: /assets/img/post_background.jpg
 thumbnail-img: /assets/post_images/grafana_1.jpeg
@@ -9,9 +9,9 @@ tags: [k8s, prometheus, grafana]
 author: Alex
 ---
 
-# 쿠버네티스에서 Appliction을 모니터링하기
+# 쿠버네티스에서 Application을 모니터링하기
 ## 목차
-- [K8S Monitoring 교육 자료](#k8s-monitoring-교육-자료)
+- [쿠버네티스에서 Application을 모니터링하기](#쿠버네티스에서-application을-모니터링하기)
   - [목차](#목차)
     - [참고 자료](#참고-자료)
   - [Prometheus](#prometheus)
