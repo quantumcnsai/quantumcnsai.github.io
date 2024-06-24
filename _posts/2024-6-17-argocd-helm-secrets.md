@@ -205,5 +205,7 @@ secrets+age-import:///helm-secrets-private-keys/key.txt?http://gitlab.com/values
 ```
 
 첫번째로 스키마를 ```secrets+age-import://``` 으로 설정. 이것은 age 키와 age 키로 암호화된 파일을 불러온다는 뜻입니다.
+
 그다음으로 ```/helm-secrets-private-keys/key.txt``` 는 repoServer 컨테이너 안에 마운트 되어 있는 age 키 파일 위치입니다.
+
 마지막으로 **?** 뒤에 ```?http://gitlab.com/values-enc.yaml``` 는 암호화된 values 파일의 위치입니다.
