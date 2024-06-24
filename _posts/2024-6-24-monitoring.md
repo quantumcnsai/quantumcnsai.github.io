@@ -7,7 +7,7 @@ thumbnail-img: /assets/post_images/grafana_1.jpeg
 share-img: /assets/post_images/grafana_1.jpeg
 tags: [k8s, prometheus, grafana]
 author: Alex
-preview: "preview test"
+preview: "쿠버네티스에서 애플리케이션 모니터링은 클러스터의 건강 상태와 리소스 사용을 지속적으로 추적하여 시스템의 성능과 안정성을 보장하는 데 매우 중요합니다. 이를 통해 문제를 신속하게 감지하고 해결하여 높은 가용성과 효율적인 서비스 운영을 유지할 수 있습니다."
 ---
 
 # 쿠버네티스에서 Application을 모니터링하기
