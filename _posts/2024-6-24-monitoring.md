@@ -7,6 +7,7 @@ thumbnail-img: /assets/post_images/grafana_1.jpeg
 share-img: /assets/post_images/grafana_1.jpeg
 tags: [k8s, prometheus, grafana]
 author: Alex
+preview: "preview test"
 ---
 
 # 쿠버네티스에서 Application을 모니터링하기

@@ -3,8 +3,8 @@ layout: post
 title: 쿠버네티스에서 Helm과 Kustomize으로 Application 배포하기
 subtitle: 쿠버네티스 입문자들을 위한 자료
 cover-img: /assets/img/post_background.jpg
-thumbnail-img: /assets/post_images/grafana_1.jpeg
-share-img: /assets/post_images/grafana_1.jpeg
+thumbnail-img: /assets/post_images/kustomize2.jpeg
+share-img: /assets/post_images/kustomize2.jpeg
 tags: [k8s, helm, kustomize]
 author: Alex
 ---
