@@ -7,6 +7,7 @@ thumbnail-img: /assets/post_images/kustomize2.jpeg
 share-img: /assets/post_images/kustomize2.jpeg
 tags: [k8s, helm, kustomize]
 author: Alex
+preview: "Helm과 Kustomize는 모두 쿠버네티스 애플리케이션의 배포와 관리를 단순화하는 도구입니다. 이들은 쿠버네티스 리소스의 구성, 버전 관리 및 재사용을 용이하게 하며, 사용자가 복잡한 쿠버네티스 애플리케이션을 보다 쉽게 배포하고 관리할 수 있도록 지원합니다. 또한, 두 도구 모두 애플리케이션을 다양한 환경에 맞춰 구성할 수 있는 유연성을 제공합니다."
 ---
 
 # Helm과 Kustomize 사용법
