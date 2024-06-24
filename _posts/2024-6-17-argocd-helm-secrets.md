@@ -7,6 +7,8 @@ thumbnail-img: /assets/img/argocd.png
 share-img: /assets/img/argocd.png
 tags: [argocd, helm]
 author: Alex
+preview: "Helm은 사용자 Application을 k8s 환경에 편하게 설치하고 업데이트할 수 있게 도와주는 유용한 툴이지만 secret 데이터를
+별도로 관리해주는 기능이 기본적으로 들어 있지 않기 때문에 사용자의 password, token 등 데이터가 노출될 있는 위험이 있습니다."
 ---
 
 ## 환경 설정
