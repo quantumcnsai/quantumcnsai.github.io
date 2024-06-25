@@ -72,7 +72,7 @@ layout: page
       {% endif %}
 
       <div class="post-entry">
-        <a href="{{ post.url | absolute_url }}" class="post-read-more">
+        <a href="{{ post.url | absolute_url }}">
         {% assign excerpt_length = site.excerpt_length | default: 50 %}
         {% if post.preview %}
           {{ post.preview | strip_html | truncatewords: excerpt_length }}
