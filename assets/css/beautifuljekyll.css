@@ -370,6 +370,7 @@ img {
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, .8);
     -webkit-box-shadow: 0 0 0.3125rem rgba(0, 0, 0, .8);
     -moz-box-shadow: 0 0 0.5rem rgba(0, 0, 0, .8);
+    background-color: #ffffff;
   {% endunless %}
 }
 .navbar-custom .avatar-container .avatar-img {
