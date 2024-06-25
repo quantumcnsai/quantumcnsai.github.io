@@ -2,7 +2,7 @@
 layout: post
 title: ArgoCD와 Helm Secret Plugin을 함께 사용하기
 subtitle: Application 배포를 안전하고 쉽게 하기
-cover-img: /assets/img/k8simage1.jpg
+cover-img: /assets/img/k8simage2.jpg
 thumbnail-img: /assets/img/argocd.png
 share-img: /assets/img/argocd.png
 tags: [argocd, helm]
