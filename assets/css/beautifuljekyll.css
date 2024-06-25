@@ -10,7 +10,7 @@ layout: null
   --text-col: {{ site.text-col | default: "#404040" }};
   --link-col: {{ site.link-col | default: "#008AFF" }};
   --hover-col: {{ site.hover-col | default: "#0085A1" }};
-  --navbar-col: {{ site.navbar-col | default: "#EAEAEA" }};
+  --navbar-col: {{ site.navbar-col | default: "#FFFFFF" }};
   --navbar-text-col: {{ site.navbar-text-col | default: "#404040" }};
   --navbar-border-col: {{ site.navbar-border-col | default: "#DDDDDD" }};
   --footer-col: {{ site.footer-col | default: "#EAEAEA" }};
@@ -20,7 +20,7 @@ layout: null
 
   /* common CSS variables */
   --body-font: 'Lora', 'Times New Roman', serif;
-  --header-font: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --header-font: 'Roboto', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --mid-col: #808080;
 }
 
@@ -101,7 +101,7 @@ hr.small {
 :target:before {
   content: "";
   display: block;
-  height: 3.125rem; /* navbar height */
+  height: 4.125rem; /* navbar height */
   margin: -3.125rem 0 0;
 }
 
@@ -200,7 +200,7 @@ img {
 .navbar-custom .navbar-brand-logo img,
 .navbar-custom.top-nav-short .navbar-brand-logo img,
 .navbar-custom.top-nav-short-permanent .navbar-brand-logo img {
-  height: 2.5rem;
+  height: 4.125rem;
 }
 
 .navbar-custom .navbar-nav .nav-item {
