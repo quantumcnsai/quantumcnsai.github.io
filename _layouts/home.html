@@ -72,17 +72,18 @@ layout: page
       {% endif %}
 
       <div class="post-entry">
+        <a href="{{ post.url | absolute_url }}" class="post-read-more">
         {% assign excerpt_length = site.excerpt_length | default: 50 %}
         {% if post.preview %}
-        {{ post.preview | strip_html | truncatewords: excerpt_length }}
-        {% assign excerpt_word_count = post.preview | number_of_words %}
+          {{ post.preview | strip_html | truncatewords: excerpt_length }}
+          {% assign excerpt_word_count = post.preview | number_of_words %}
         {% else %}
-        {{ post.excerpt | strip_html | truncatewords: excerpt_length }}
-        {% assign excerpt_word_count = post.excerpt | number_of_words %}
+          {{ post.excerpt | strip_html | truncatewords: excerpt_length }}
+          {% assign excerpt_word_count = post.excerpt | number_of_words %}
         {% endif %}
         {% if post.content != post.excerpt or post.content != post.preview or excerpt_word_count > excerpt_length %}
-          <a href="{{ post.url | absolute_url }}" class="post-read-more">[Read&nbsp;More]</a>
         {% endif %}
+        [Read&nbsp;More]</a>
       </div>
       {% endunless %}
 
