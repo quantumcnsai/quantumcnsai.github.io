@@ -91,9 +91,9 @@ blockquote p:first-child {
   background: #EEE;
 }
 hr.small {
-  max-width: 6.25rem;
+  max-width: 35rem;
   margin: 1rem auto;
-  border-width: 0.25rem;
+  border-width: 1px;
   border-color: inherit;
   border-radius: 0.1875rem;
 }
