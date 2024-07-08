@@ -20,7 +20,7 @@ layout: null
 
   /* common CSS variables */
   --body-font: 'Lora', 'Times New Roman', serif;
-  --header-font: 'Roboto', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --header-font: 'Roboto', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Oswald', sans-serif;
   --mid-col: #808080;
 }
 
@@ -28,6 +28,11 @@ layout: null
 
 html {
   font-size: 100%
+}
+
+@font-face {
+  font-family: OswaldFont;
+  src: url(/assets/fonts/Oswald-Regular.ttf);
 }
 
 body {
@@ -59,6 +64,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 h1 {
   font-size: 2.25rem;
+  font-weight: normal;
 }
 h2 {
   font-size: 1.875rem;
@@ -90,9 +96,9 @@ blockquote p:first-child {
   background: #EEE;
 }
 hr.small {
-  max-width: 6.25rem;
+  max-width: 35rem;
   margin: 1rem auto;
-  border-width: 0.25rem;
+  border-width: 1px;
   border-color: inherit;
   border-radius: 0.1875rem;
 }
@@ -167,8 +173,8 @@ img {
 .navbar-custom,
 .navbar-custom.top-nav-short,
 .navbar-custom.top-nav-short-permanent {
-  padding-top: 0.344rem;
-  padding-bottom: 0.344rem;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
 .navbar-custom .navbar-brand {
@@ -187,8 +193,8 @@ img {
 .navbar-custom .navbar-brand-logo,
 .navbar-custom.top-nav-short .navbar-brand-logo,
 .navbar-custom.top-nav-short-permanent .navbar-brand-logo {
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
 }
 
 .navbar-custom .navbar-brand-logo img {
@@ -200,7 +206,7 @@ img {
 .navbar-custom .navbar-brand-logo img,
 .navbar-custom.top-nav-short .navbar-brand-logo img,
 .navbar-custom.top-nav-short-permanent .navbar-brand-logo img {
-  height: 2.75rem;
+  height: 60px;
 }
 
 .navbar-custom .navbar-nav .nav-item {
@@ -240,8 +246,8 @@ img {
 
 @media (min-width: 1200px) {
   .navbar-custom {
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
   }
 
   .navbar-custom .navbar-brand-logo {
@@ -250,7 +256,7 @@ img {
   }
 
   .navbar-custom .navbar-brand-logo img {
-    height: 3.125rem;
+    height: 80px;
   }
 
   .navbar-expand-xl .navbar-nav .nav-link {
@@ -711,6 +717,8 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 .intro-header .page-heading h1 {
   margin-top: 0;
   font-size: 3.125rem;
+  font-family: OswaldFont;
+  font-weight: normal;
 }
 .intro-header .post-heading h1 {
   margin-top: 0;
@@ -764,6 +772,8 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   }
   .intro-header .page-heading h1 {
     font-size: 5rem;
+    font-family: OswaldFont;
+    font-weight: normal;
   }
   .intro-header .post-heading h1 {
     font-size: 3.125rem;
