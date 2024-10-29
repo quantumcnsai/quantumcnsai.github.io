@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Opentelemetry로 멀티클러스터 Observablity 시스템 구성하기
-subtitle: Opentelemetry 사용
+subtitle: 여러 Kubernetes 클러스터를 통합 모니터링하기 
 cover-img: /assets/img/post_background.jpg
 thumbnail-img: /assets/post_images/otel_multicluster.png
 share-img: /assets/post_images/otel_multicluster.png
