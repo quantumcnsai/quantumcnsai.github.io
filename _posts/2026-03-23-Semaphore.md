@@ -2,8 +2,8 @@
 layout: post
 title: "Ansible 자동화 운영의 완성: Semaphore 이해 및 구축 상세 가이드"
 cover-img: /assets/img/post_background.jpg
-thumbnail-img: /assets/post_images/otel_multicluster.png
-share-img: /assets/post_images/otel_multicluster.png
+thumbnail-img: /assets/post_images/ansible-semaphore-flow.drawio.png
+share-img: /assets/post_images/ansible-semaphore-flow.drawio.png
 tags: [ansible, automation, semaphore, devops, infrastructure, linux, mariadb, systemd, git, docker]
 author: Cody
 preview: "CLI 기반 Ansible 운영의 한계를 넘어, Web UI 기반 자동화 운영 플랫폼 Semaphore의 구조, 구성 요소, 구축 절차, 운영 포인트를 상세히 설명드립니다."
